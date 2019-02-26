@@ -31,13 +31,13 @@ section {
     grid-row: 2;
     position: relative;
     top: 5em;
-    /margin-right: 1em;
 }
 
 h2 {
     font-size: 1em;
     margin-bottom: 1em;
     margin-left: 1em;
+    width: 10em;
 }
 
 input[type='checkbox'] {
@@ -52,28 +52,28 @@ form div {
     display: inline-block;
 }
 
-#blauw {
+#blue {
     background: blue;
 }
 
-#bruin {
+#brown {
     background: brown;
 }
 
-#groen {
+#green {
     background: green;
 }
 
-#geel {
-    background: yellow;
+#red {
+    background: red;
 }
 
 
 main {
-    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
     margin-top: 5em;
-    /padding-left: 10em;
-    width: 40vw;
 }
 
 img {
@@ -82,11 +82,18 @@ img {
     margin: 0.5em;
 }
 
-.blauw img.blauw {
+.blue img.blue {
     display: none;
 }
 
-.bruin img.bruin {
+.brown img.brown {
     display: none;
 }
 
+.green img.green {
+    display: none;
+}
+
+.red img.red {
+    display: none;
+}
