@@ -56,16 +56,37 @@ form div {
     background: blue;
 }
 
+#blue:hover {
+    background: blue;
+    border: 2px solid black;
+}
+
+
 #brown {
     background: brown;
+}
+
+#brown:hover {
+    background: brown;
+    border: 2px solid black;
 }
 
 #green {
     background: green;
 }
 
+#green:hover {
+    background: green;
+    border: 2px solid black;
+}
+
 #red {
     background: red;
+}
+
+#red:hover {
+    background: red;
+    border: 2px solid black;
 }
 
 
